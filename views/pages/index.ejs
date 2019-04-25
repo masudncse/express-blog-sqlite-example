@@ -1,0 +1,12 @@
+<% include partials/header %>
+
+<h1>Add Post</h1>
+<% if (errors) { %>
+Erors found
+<% } %>
+<form action="/" method="post">
+    <input type="text" name="title" id="title">
+    <input type="submit" value="Submit">
+</form>
+
+<% include partials/footer %>
